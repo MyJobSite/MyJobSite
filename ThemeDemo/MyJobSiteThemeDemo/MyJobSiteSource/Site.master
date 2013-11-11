@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="concerted\default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="concerted\fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+   <div id="header" class="container">
+	<div id="logo">
+		<h1><a href="#">My Job Site</a></h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="#" accesskey="1" title="">Homepage</a></li>
+			<li><a href="#" accesskey="2" title="">New Jobs</a></li>
+			<li><a href="#" accesskey="3" title="">Updates</a></li>
+			<li><a href="#" accesskey="4" title="">About Us</a></li>
+			<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+<div id="banner-wrapper">
+	<div id="banner" class="container">
+		<div class="boxA">
+			<h3>Freshers</h3>
+			<p>I am a freshes looking for a decent job.</p>
+			<a href="#" class="button">Freshers Job</a>
+		</div>
+		<div class="boxB">
+			<h3>Experienced</h3>
+			<p>I have several years of industry experience.</p>
+			<a href="#" class="button">Laterals Job</a>
+		</div>
+		<div class="boxC">
+			<h3>Employers</h3>
+			<p>I am looking for a candidate.</p>
+			<a href="#" class="button">Candidates</a> 
+		</div>
+	</div>
+</div>
+<div id="page-wrapper">
+	<div id="page" class="container">
+		<div class="pboxA">
+			<h3>Browse By Area</h3>
+			<p><img src="concerted/images/pic05.jpg" alt="" class="image image-left" />Find jobs in fields like IT, Software, Healthcare area etc.</p>
+			<a href="#" class="button">Jobs By Area</a>
+		</div>
+		<div class="pboxB">
+			<h3>Browse By Industry</h3>
+			<p><img src="concerted/images/pic06.jpg" alt="" class="image image-left" />Find jobs in industries like Engineering, Manufacturing etc.</p>
+			<a href="#" class="button">Jobs By Industry</a>
+		</div>
+		<div class="pboxC">
+			<h3>Browse By Location</h3>
+			<p><img src="concerted/images/pic07.jpg" alt="" class="image image-left" />Find jobs in locations like Pune, Mumbai, Delhi - NCR etc.</p>
+			<a href="#" class="button">Jobs By Location</a>
+		</div>
+	</div>
+</div>
+<div id="footer-wrapper">
+	<div id="footer" class="container">
+		<div id="fbox1">
+			<h2>Job Updates</h2>
+			<ul class="style3">
+				<li class="first">
+					<p class="date"><a href="#">Oct<b>15</b></a></p>
+					<h3>Infosys </h3>
+					<p><a href="#">We are looking for a C#.Net Developer with 2 years experience.</a></p>
+				</li>
+				<li>
+					<p class="date"><a href="#">Oct<b>11</b></a></p>
+					<h3>Wipro</h3>
+					<p><a href="#">Looking for Java developer with 3 years of experience</a></p>
+				</li>
+				<li>
+					<p class="date"><a href="#">Oct<b>09</b></a></p>
+					<h3>Persistent</h3>
+					<p><a href="#">Urgent need of manual tester with 4 years of experience</a></p>
+				</li>
+			</ul>
+		</div>
+		<div id="fbox2">
+			<h2>Find The Right Job With MyJobSite.com</h2>
+			<p>This is <strong>MyJobSite.com</strong>, a free, fully standards-compliant job search site <a href="http://www.MyJobSite.com/" rel="nofollow">MyJobSite.com</a>. Get the best offer available in market with <a href="http://MyJobSite.com">MyJobSite.com</a>. You are pretty much free to do whatever you want. Aside from that, have fun with it :) </p>
+			<ul class="style1">
+				<li><img src="concerted/images/pic01.jpg" width="180" height="120" alt="" /></li>
+				<li><img src="concerted/images/pic02.jpg" width="180" height="120" alt="" /></li>
+				<li><img src="concerted/images/pic03.jpg" width="180" height="120" alt="" /></li>
+				<li><img src="concerted/images/pic04.jpg" width="180" height="120" alt="" /></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="copyright">
+	<ul class="contact">
+		<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+		<li><a href="#" class="icon icon-facebook"><span></span></a></li>
+		<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+		<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+		<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+	</ul>
+	
+	<p>Copyright (c) 2013 Sitename.com. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
+</div>
+    </form>
+</body>
+</html>
